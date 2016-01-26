@@ -90,6 +90,12 @@
             background: #ff7b81;
             }
 
+            input[type="checkbox"] {
+            margin-top: -16px;
+            height: 15px;
+            margin-left: -40px;
+            }
+
         </style>
 </head>
 <body>
@@ -100,7 +106,7 @@
         <h1>Login</h1>
         <input type="text" id="username" name="username" placeholder="Username"  />
         <input type="password" id="password" name="password" placeholder="Password" />
-        Remember Me: <input type="checkbox" name="remember-me" placeholder="remember-me"/></td>
+        Remember Me: <input type="checkbox" style="border:2px dotted #00f;display:block;background:#ff0000;" name="remember-me" placeholder="remember-me"/></td>
         <button>Submit</button>
 
     </form>
