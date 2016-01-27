@@ -25,3 +25,13 @@ Currentlly PersistentTokenBasedRememberMeServices supports two types of reposito
 2) JdbcTokenRepositoryImpl which stores the tokens in a database.
 
 we use JdbcTokenRepositoryImpl in this application.
+
+# Build :
+
+mvn clean install
+
+deploy spring-security-remember-me-example.war file in web server(eg, tomcat).
+
+# Blog :
+
+Please read this [blog](https://sunilkumarpblog.blogspot.in/2016/01/spring-security-authentication-with.html) for precise explination of this application.
